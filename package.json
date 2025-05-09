@@ -1,0 +1,28 @@
+{
+  "name": "wss",
+  "version": "1.0.0",
+  "description": "protocol implementation server for ws wss",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --recursive --timeout 60000"
+  },
+  "directories": {
+    "test": "./test"
+  },
+  "keywords": [],
+  "author": "Ganesh B <desktopcgi@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganeshkbhat/wss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ganeshkbhat/wss/issues"
+  },
+  "homepage": "https://github.com/ganeshkbhat/wss#readme",
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.2.2",
+    "sinon": "^20.0.0"
+  }
+}
